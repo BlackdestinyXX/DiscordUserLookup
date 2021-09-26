@@ -17,7 +17,7 @@ public class App {
         HttpURLConnection connection = (HttpURLConnection) url.openConnection();
 
         connection.setRequestMethod("GET");
-        connection.setRequestProperty("Authorization", "Bot ODkxNTc0NTAzNTI2NzY4NzUx.YVAVdg.3FZkVXmCQrsB2FRUXic_zKqRX2g"); 
+        connection.setRequestProperty("Authorization", "Bot ODkxNTc0NTAzNTI2NzY4NzUx.YVAVdg.3FZkVXmCQrsB2FRUXic_zKqRX2g"); // Replace this with your token
         connection.setRequestProperty("Content-Type", "application/json");
 
         connection.setDoOutput(true);
